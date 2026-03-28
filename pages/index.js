@@ -1,5 +1,3 @@
-function status(request, response) {
-  response.status(200).json({ chave: "avanti palestra!" });
+export default function Home() {
+  return <h1>Home</h1>;
 }
-
-export default status;
